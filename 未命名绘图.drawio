@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T05:31:59.328Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5tcjthAtWMaVGdIh8RQr" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T05:59:27.314Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="WleVpFw8GWhOa4_trGpu" version="24.2.3" type="github">
   <diagram name="第 1 页" id="hL7lgHcb_5edd5JF82dh">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,20 @@
             <mxPoint x="770" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-19" value="需要各个切面，x、y、z方向三个切面，前后中，" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gv-s6LlB8rjAMd5SSHqs-19" target="Gv-s6LlB8rjAMd5SSHqs-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-19" value="把切面中的点的数据重新组织为坐标的形式，并减去当前待求点的坐标，相对位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-21" value="相对位置和流速就是这里的特征" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gv-s6LlB8rjAMd5SSHqs-21" target="Gv-s6LlB8rjAMd5SSHqs-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="330" as="sourcePoint" />
+            <mxPoint x="890" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
