@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T04:45:43.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="3Gu8DdEmQr3to5VGt--V" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T04:53:36.180Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="p5tVFekKNXLa8QO4motQ" version="24.2.3" type="github">
   <diagram name="第 1 页" id="hL7lgHcb_5edd5JF82dh">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,30 @@
         </mxCell>
         <mxCell id="Gv-s6LlB8rjAMd5SSHqs-8" value="如果不对数据进行处理，需要检索距离他比较近的数据，当点数太多的时候，检索量太大" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-9" value="当求某个数据点下一步的变化时，应该需要去匹配各个切面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gv-s6LlB8rjAMd5SSHqs-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="290" as="sourcePoint" />
+            <mxPoint x="630" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gv-s6LlB8rjAMd5SSHqs-1" target="Gv-s6LlB8rjAMd5SSHqs-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="370" as="sourcePoint" />
+            <mxPoint x="350" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint" />
+            <mxPoint x="570" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-15" value="需要各个切面，x、y、z方向三个切面，前后中，" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
