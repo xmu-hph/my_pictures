@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T06:02:43.092Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="p3eI6RbEqq1zas2vtxcE" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T06:05:02.521Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="WCtlDSBBLh4k--X2F7vw" version="24.2.3" type="github">
   <diagram name="第 1 页" id="hL7lgHcb_5edd5JF82dh">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,8 +88,8 @@
             <mxPoint x="890" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-24" value="steps代表要计算未来多少步的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="Gv-s6LlB8rjAMd5SSHqs-24" value="steps代表要计算未来多少步的数据，可以一步一步算，让一步的计算精度尽可能的高，然后再去考虑多步的情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="280" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
